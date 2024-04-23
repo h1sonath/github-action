@@ -46,7 +46,7 @@ jobs:
         run: |
           echo develop
           ls -la
-          echo Update newest image to deploy environment: ${{ steps.meta.outputs.tags }}-${{ github.sha }}
+          echo Update newest image to deploy environment: "${{ steps.meta.outputs.tags }}-${{ github.sha }}"
           echo Hello thay Thien
           echo Hello Hiep
 
